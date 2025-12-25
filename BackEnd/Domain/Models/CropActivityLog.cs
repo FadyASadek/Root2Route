@@ -8,6 +8,7 @@ namespace Domain.Models
     public class CropActivityLog : BaseEntity
     {
         [Required, MaxLength(100)]
+        ////
         public string? ActivityType { get; set; } // ري، تسميد، رش مبيدات
 
         [MaxLength(500)]

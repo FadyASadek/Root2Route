@@ -13,6 +13,7 @@ namespace Domain.Models
         public ApplicationUser? Receiver { get; set; }
 
         [Required]
+        ////
         public string Message { get; set; } = string.Empty;
         public DateTime Timestamp { get; set; } = DateTime.UtcNow;
     }
